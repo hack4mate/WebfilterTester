@@ -1,31 +1,9 @@
-# URLchecker.ps1
+param (
+    [string]$inputFilePath,
+    [string]$outputFilePath
+)
 
-# Installation der 'requests'-Bibliothek, falls nicht vorhanden
-try {
-    $null = [System.Reflection.Assembly]::LoadWithPartialName('System.Net.Http')
-}
-catch {
-    Write-Host "Request library not found, please install it before proceeding"
-    exit
-}
-
-# Deaktiviere Warnungen
-[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12
-Add-Type @"
-    using System.Net;
-    using System.Security.Cryptography.X509Certificates;
-    public class TrustAllCertsPolicy : ICertificatePolicy {
-        public bool CheckValidationResult(
-            ServicePoint srvPoint, X509Certificate certificate,
-            WebRequest request, int certificateProblem) {
-            return true;
-        }
-    }
-"@
-[System.Net.ServicePointManager]::CertificatePolicy = New-Object TrustAllCertsPolicy
-
+# my logo 
 Write-Host "                                    011"
 Write-Host "                                  110  "
 Write-Host "                                110    "
@@ -56,73 +34,40 @@ Write-Host "|        Twitter @ Hack4Mate        |"
 Write-Host " ----------------------------------- "
 Write-Host "                                      "
 
-function Usage {
-    $scriptName = $MyInvocation.MyCommand.Name
-    $scriptPath = Split-Path -Path $MyInvocation.MyCommand.Path -Leaf
 
-    if ($scriptPath -eq $scriptName) {
-        $scriptPath = "./$scriptName"
-    }
-
-    Write-Host "Usage: $scriptPath -s <List of URLs to test against> -o <Output file (CSV)>`n"
-    Write-Host "    -s: List of URLs to test against"
-    Write-Host "    -o: Output file (CSV)"
+# checks for input file
+if (-not (Test-Path $inputFilePath)) {
+    Write-Output "Input File '$inputFilePath' doesen't exist."
+    exit
 }
 
-function Start-URLCheck {
-    param (
-        [string]$siteList,
-        [string]$outputFile
-    )
+# Open output file to write
+$outputFile = [System.IO.File]::CreateText($outputFilePath)
 
-    $results = "init"
-
-    $myList = Get-Content $siteList
-
-    foreach ($line in $myList) {
+$inputList = Get-Content -Path $inputFilePath
+foreach ($line in $inputList) {
+    # Checks for title
+    if ($line.Contains("#")) {
+        $line | Add-Content -Path $outputFilePath
+        Write-Output "Checking: $line"
+    } 
+    elseif ($line -eq "") {
+        $line | Add-Content -Path $outputFilePath
+    } 
+    # Checks site
+    else {
         try {
-            $bob = "http://$line"
-            $res = Invoke-WebRequest -Uri $bob -TimeoutSec 6 -UseBasicParsing -ErrorAction Stop
-            $results = "$line,PASS,0"
-        }
-        catch [System.Net.WebException] {
-            $errorCode = $_.Exception.Response.StatusCode.value__
-            $results = "$line,FAIL,$errorCode"
-        }
-        catch {
-            $results = "$line,FAIL,Unknown"
-        }
-
-        Write-Host $results
-        Add-Content -Path $outputFile -Value "$results"
-    }
-}
-
-if ($args.Count -lt 4) {
-    Usage
-    exit
-}
-
-try {
-    $opts = Getopt -args $args -options 's:o:' -longoptions 'siteList:,outputFile:' -passThru -errorAction Stop
-}
-catch {
-    Usage
-    exit
-}
-
-$siteList = ""
-$outputFile = ""
-
-foreach ($opt in $opts) {
-    switch ($opt.Name) {
-        's' {
-            $siteList = $opt.Value
-        }
-        'o' {
-            $outputFile = $opt.Value
+            $HTTP_Request = Invoke-WebRequest $line
+            if ($HTTP_Request.StatusCode -eq 200) {
+                $line | Add-Content -Path $outputFilePath
+            }
+        } catch {
+            Write-Output "Site blocked or down: $line"
         }
     }
 }
 
-Start-URLCheck -siteList $siteList -outputFile $outputFile
+# Closes file.
+$outputFile.Close()
+
+Write-Output "Done - File with Sites that aren't blocked: $outputFilePath"
