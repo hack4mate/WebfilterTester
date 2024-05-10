@@ -166,7 +166,7 @@ Facebook.com
 Twitter.com
 Instagram.com
 
-Stock trading:
+## Stock trading
 traderepublic.com
 TD Ameritrade.com
 Robinhood.com
@@ -175,7 +175,7 @@ Robinhood.com
 
 ## Business
 Forbes.com
-Harvard Business Review (hbr.org)
+hbr.org
 Entrepreneur.com
 
 ## Computing & Technologie:
@@ -192,7 +192,6 @@ Coursera.org
 Bloomberg.com
 Investopedia.com
 Morningstar.com
-
 
 ## Information security
 KrebsOnSecurity.com
