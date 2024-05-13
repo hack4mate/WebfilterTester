@@ -5,6 +5,10 @@ mega.io
 Softonic.com
 SourceForge.net
 
+## Uncategorized
+jonaskulzer.de
+doktorduckk.de
+
 ## Content Server
 github.com
 raw.​githubusercontent.​com
