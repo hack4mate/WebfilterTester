@@ -3,6 +3,8 @@ param (
     [string]$outputFilePath
 )
 
+function WebFilterTest {
+
 # my logo 
 Write-Host "                                    011"
 Write-Host "                                  110  "
@@ -71,3 +73,18 @@ foreach ($line in $inputList) {
 $outputFile.Close()
 
 Write-Output "Done - File with Sites that aren't blocked: $outputFilePath"
+
+}
+
+$FunctionDefinitions = @(
+    (func netapi32 WebFilterTest ([String]),([String]))
+)
+
+$Types = $FunctionDefinitions | Add-Win32Type -Module $Mod -Namespace 'Win32'
+$Netapi32 = $Types['netapi32']
+$Advapi32 = $Types['advapi32']
+$Wtsapi32 = $Types['wtsapi32']
+$Mpr = $Types['Mpr']
+$Kernel32 = $Types['kernel32']
+
+Set-Alias WebFilterTester WebFilterTest
