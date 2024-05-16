@@ -16,16 +16,16 @@ Write-Host "        1011001101110111011001         "
 Write-Host "      1011:::...        1011011        "
 Write-Host "     100::::::::....  1100   100       "
 Write-Host "    10111011101110111011101110111      "
-Write-Host "   10111011101110111011101110011001    "
-Write-Host "  1011101110111011101110111011  1001   "
+Write-Host "   00100000010011110111011100 1001   "
+Write-Host "  001000000100000101110111011  1001   "
 Write-Host " 10111 1011 100 10111011  100 1 1011   "
 Write-Host "110111 1011 100 100 1011   00 1 10111  "
 Write-Host "110111      100 100 1011 1   00 10111  "
 Write-Host "110111 1011 100       00 00  00 11011  "
 Write-Host " 10111 1011 1011100 1011 101110 01011  "
 Write-Host " 11000 1000 1011100 1011 10111011100   "
-Write-Host "   1011101110111011 101110111011001    "
-Write-Host "    101110111011101110111011111101     "
+Write-Host "   0010000010111011 101110111011001    "
+Write-Host "    010010001011101110111011111101     "
 Write-Host "      10111011101110111011101111       "
 Write-Host "        1110111011101110111011         "
 Write-Host "            01101110001000             "
@@ -49,6 +49,7 @@ $outputFile = [System.IO.File]::CreateText($outputFilePath)
 $inputList = Get-Content -Path $inputFilePath
 foreach ($line in $inputList) {
     # Checks for title
+    Start-Sleep -Seconds 2
     if ($line.Contains("#")) {
         $line | Add-Content -Path $outputFilePath
         Write-Output "Checking: $line"
