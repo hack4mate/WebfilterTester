@@ -21,3 +21,11 @@ Thank you and have fun :)
 ./WebFilterTester.ps1 /Input/Path/With/Domains.txt /Output/File.txt
 
 ```
+
+### Or just copy this command and run it ;) :
+
+```PowerShell
+wget https://raw.githubusercontent.com/hack4mate/WebfilterTester/main/Domains.txt -OutFile Domains.txt;
+IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/hack4mate/WebfilterTester/main/WebFilterTester.ps1');
+WebFilterTest ./Domains.txt ./Outfile.txt
+```
