@@ -2,7 +2,7 @@
 
 ## Downloads
 mega.io
-softonic.com
+https://de.softonic.com
 sourceforge.net
 
 ## Uncategorized
@@ -31,7 +31,7 @@ williamhill.com
 
 ## Illegal drugs
 bestbud.nl
-weedmaps.com
+https://weedmaps.com
 
 ## Illegal software
 thepiratebay.org
@@ -44,8 +44,7 @@ okcupid.com
 
 ## Weapons
 glock.com
-smithandwesson.com
-armslist.com
+https://www.smith-wesson.com
 
 # Medium
 
@@ -56,8 +55,8 @@ adcash.com
 
 ## Arts & culture
 artsy.net
-moma.org 
-poetryfoundation.org
+https://www.moma.org
+https://www.poetryfoundation.org
 
 ## Auctions
 ebay.com
@@ -72,10 +71,10 @@ medium.com
 ## Chat
 discord.com
 chatroulette.com
-wwitch.tv
+twitch.tv
 
 ## Entertainment
-netflix.com
+https://www.netflix.com/de/
 hulu.com
 imdb.com
 
@@ -86,13 +85,13 @@ hm.com
 
 ## Food & dining
 allrecipes.com
-foodnetwork.com
+https://foodnetwork.co.uk
 yelp.com
 
 ## Forums & newsgroups
-reddit.com
+https://www.reddit.com/
 stackexchange.com
-quora.com
+https://de.quora.com
 
 ## Gameplay & game media
 ign.com
@@ -101,7 +100,7 @@ gamesradar.com
 
 ## Hobbies
 instructables.com
-pinterest.com
+https://www.pinterest.de
 ravelry.com
 
 ## Kids sites
@@ -125,7 +124,7 @@ flickr.com
 soundcloud.com
 
 ## Moderated forums
-neogaf.com
+https://www.neogaf.com
 somethingawful.com
 digitalpoint.com
 
@@ -141,11 +140,11 @@ aljazeera.com
 
 ## Online storage
 dropbox.com
-googledrive.com
+http://drive.google.com
 onedrive.com
 
 ## Politics
-politico.com
+https://www.politico.com
 huffpost.com 
 foxnews.com
 
@@ -161,7 +160,7 @@ kproxy.com
 
 ## Religion
 biblegateway.com
-vatican.va
+https://www.vatican.va/content/vatican/de.html
 beliefnet.com
 
 ## Social networks
@@ -187,7 +186,7 @@ techcrunch.com
 golem.de
 
 ## Education & reference:
-khanacademy.org
+https://www.khanacademy.org
 wikipedia.org
 coursera.org
 
@@ -198,10 +197,10 @@ morningstar.com
 
 ## Information security
 krebsonsecurity.com
-securityweek.com
+https://www.bleepingcomputer.com
 sans.org
 
 ## Job search
-indeed.com
+https://de.indeed.com
 linkedin.com/jobs
-glassdoor.com
+https://www.glassdoor.de/index.htm
