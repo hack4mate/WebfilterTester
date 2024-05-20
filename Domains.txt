@@ -3,7 +3,7 @@
 ## Downloads
 mega.io
 softonic.com
-SourceForge.net
+sourceforge.net
 
 ## Uncategorized
 jonaskulzer.de
@@ -12,197 +12,196 @@ doktorduckk.de
 ## Content Server
 github.com
 https://raw.githubusercontent.com/hack4mate/hack4mate/main/README.md
-Bitbucket.org
+bitbucket.org
 
 ## Alcohol & tobacco
-Budweiser.com
+budweiser.com
 bat.de
 st-group.com
 
 ## Adult content
-Brazzers.com
-YouPorn.com
-Pornhub.com
+brazzers.com
+youporn.com
+pornhub.com
 
-## Gambling^
+## Gambling
 casino.org
-PokerStars.com
-WilliamHill.com
+pokerstars.com
+williamhill.com
 
 ## Illegal drugs
-Bestbud.nl
-WeedMaps.com
+bestbud.nl
+weedmaps.com
 
 ## Illegal software
-ThePirateBay.org
-Crackwatch.com
-Keygen.com
+thepiratebay.org
+keygen.com
 
 ## Dating
-Match.com
-Tinder.com
-OkCupid.com
+match.com
+tinder.com
+okcupid.com
 
 ## Weapons
-Glock.com
-SmithAndWesson.com
-Armslist.com
+glock.com
+smithandwesson.com
+armslist.com
 
 # Medium
 
 ## Advertisements & popup
-DoubleClick.net
-PopAds.net
-Adcash.com
+doubleclick.net
+popads.net
+adcash.com
 
 ## Arts & culture
-Artsy.net
-MoMA.org 
-PoetryFoundation.org
+artsy.net
+moma.org 
+poetryfoundation.org
 
 ## Auctions
-eBay.com
-Sothebys.com
-Christie's.com
+ebay.com
+sothebys.com
+christies.com
 
 ## Blogs & wikis
-WordPress.com
-WikiHow.com
-Medium.com
+wordpress.com
+wikihow.com
+medium.com
 
 ## Chat
-Discord.com
-Chatroulette.com
-Twitch.tv
+discord.com
+chatroulette.com
+wwitch.tv
 
 ## Entertainment
-Netflix.com
-Hulu.com
-IMDb.com
+netflix.com
+hulu.com
+imdb.com
 
 ## Fashion & beauty
-Vogue.com
-Sephora.com
-H&M.com
+vogue.com
+sephora.com
+hm.com
 
 ## Food & dining
-AllRecipes.com
-FoodNetwork.com
-Yelp.com
+allrecipes.com
+foodnetwork.com
+yelp.com
 
 ## Forums & newsgroups
-Reddit.com
-StackExchange.com
-Quora.com
+reddit.com
+stackexchange.com
+quora.com
 
 ## Gameplay & game media
-IGN.com
-Kotaku.com
-GamesRadar.com
+ign.com
+kotaku.com
+gamesradar.com
 
 ## Hobbies
-Instructables.com
-Pinterest.com
-Ravelry.com
+instructables.com
+pinterest.com
+ravelry.com
 
 ## Kids sites
-PBSKids.org
-Disney.com
-NickJr.com
+pbskids.org
+disney.com
+nickjr.com
 
 ## Marketing & merchandise
-Amazon.com
-Shopify.com
-ClickBank.com
+amazon.com
+shopify.com
+clickbank.com
 
 ## Mobile communication
-WhatsApp.com
-Telegram.org
-Viber.com
+whatsapp.com
+telegram.org
+viber.com
 
 ## Media sharing
-YouTube.com
-Flickr.com
-SoundCloud.com
+youtube.com
+flickr.com
+soundcloud.com
 
 ## Moderated forums
-NeoGAF.com
-SomethingAwful.com
-DigitalPoint.com
+neogaf.com
+somethingawful.com
+digitalpoint.com
 
 ## Motor vehicles
-CarandDriver.com
-Autotrader.com
-Edmunds.com
+caranddriver.com
+autotrader.com
+edmunds.com
 
 ## News:
-BBC.com
-CNN.com
-AlJazeera.com
+bbc.com
+cnn.com
+aljazeera.com
 
 ## Online storage
-Dropbox.com
-GoogleDrive.com
-OneDrive.com
+dropbox.com
+googledrive.com
+onedrive.com
 
 ## Politics
-Politico.com
-HuffPost.com 
-FoxNews.com
+politico.com
+huffpost.com 
+foxnews.com
 
 ## Professional networking
-LinkedIn.com
-AngelList.com
-XING.com
+linkedin.com
+angellist.com
+xing.com
 
 ## Proxies
-HideMyAss.com
-ProxySite.com
-KProxy.com
+hidemyass.com
+proxysite.com
+kproxy.com
 
 ## Religion
-BibleGateway.com
-Vatican.va
-Beliefnet.com
+biblegateway.com
+vatican.va
+beliefnet.com
 
 ## Social networks
-Facebook.com
-Twitter.com
-Instagram.com
+facebook.com
+twitter.com
+instagram.com
 
 ## Stock trading
 traderepublic.com
-TD Ameritrade.com
-Robinhood.com
+tdameritrade.com
+robinhood.com
 
 # Low
 
 ## Business
-Forbes.com
+forbes.com
 hbr.org
-Entrepreneur.com
+entrepreneur.com
 
 ## Computing & Technologie:
-Wired.com
-TechCrunch.com
-Golem.de
+wired.com
+techcrunch.com
+golem.de
 
 ## Education & reference:
-KhanAcademy.org
-Wikipedia.org
-Coursera.org
+khanacademy.org
+wikipedia.org
+coursera.org
 
 ## Finance & Investment
-Bloomberg.com
-Investopedia.com
-Morningstar.com
+bloomberg.com
+investopedia.com
+morningstar.com
 
 ## Information security
-KrebsOnSecurity.com
-SecurityWeek.com
-SANS.org
+krebsonsecurity.com
+securityweek.com
+sans.org
 
 ## Job search
-Indeed.com
-LinkedIn.com/jobs
-Glassdoor.com
+indeed.com
+linkedin.com/jobs
+glassdoor.com
