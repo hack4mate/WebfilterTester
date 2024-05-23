@@ -1,0 +1,120 @@
+Criticality;Category;Domain
+Critical;Downloads;mega.io
+Critical;Downloads;https://de.softonic.com
+Critical;Downloads;sourceforge.net
+Critical;Uncategorized;jonaskulzer.de
+Critical;Uncategorized;doktorduckk.de
+Critical;Content Server;github.com
+Critical;Content Server;https://raw.githubusercontent.com/hack4mate/hack4mate/main/README.md
+Critical;Content Server;bitbucket.org
+Critical;Alcohol & tobacco;budweiser.com
+Critical;Alcohol & tobacco;bat.de
+Critical;Alcohol & tobacco;st-group.com
+Critical;Adult content;brazzers.com
+Critical;Adult content;youporn.com
+Critical;Adult content;pornhub.com
+Critical;Gambling;casino.org
+Critical;Gambling;pokerstars.com
+Critical;Gambling;williamhill.com
+Critical;Illegal drugs;bestbud.nl
+Critical;Illegal drugs;https://weedmaps.com
+Critical;Illegal software;https://thepiratebay.org/index.html
+Critical;Illegal software;keygen.com
+Critical;Dating;match.com
+Critical;Dating;tinder.com
+Critical;Dating;okcupid.com
+Critical;Weapons;glock.com
+Critical;Weapons;https://www.smith-wesson.com
+Medium;Advertisements & popup;doubleclick.net
+Medium;Advertisements & popup;popads.net
+Medium;Advertisements & popup;adcash.com
+Medium;Arts & culture;artsy.net
+Medium;Arts & culture;berlinischegalerie.de
+Medium;Arts & culture;https://www.poetryfoundation.org
+Medium;Auctions;ebay.com
+Medium;Auctions;sothebys.com
+Medium;Auctions;christies.com
+Medium;Blogs & wikis;wordpress.com
+Medium;Blogs & wikis;wikihow.com
+Medium;Blogs & wikis;medium.com
+Medium;Chat;discord.com
+Medium;Chat;chatroulette.com
+Medium;Chat;twitch.tv
+Medium;Entertainment;https://www.netflix.com/de/
+Medium;Entertainment;hulu.com
+Medium;Entertainment;imdb.com
+Medium;Fashion & beauty;vogue.com
+Medium;Fashion & beauty;sephora.com
+Medium;Fashion & beauty;hm.com
+Medium;Food & dining;allrecipes.com
+Medium;Food & dining;https://foodnetwork.co.uk
+Medium;Food & dining;yelp.com
+Medium;Forums & newsgroups;https://www.reddit.com/
+Medium;Forums & newsgroups;stackexchange.com
+Medium;Forums & newsgroups;https://de.quora.com
+Medium;Gameplay & game media;ign.com
+Medium;Gameplay & game media;kotaku.com
+Medium;Gameplay & game media;gamesradar.com
+Medium;Hobbies;instructables.com
+Medium;Hobbies;https://www.pinterest.de
+Medium;Hobbies;ravelry.com
+Medium;Kids sites;pbskids.org
+Medium;Kids sites;disney.com
+Medium;Kids sites;nickjr.com
+Medium;Marketing & merchandise;amazon.com
+Medium;Marketing & merchandise;shopify.com
+Medium;Marketing & merchandise;clickbank.com
+Medium;Mobile communication;whatsapp.com
+Medium;Mobile communication;telegram.org
+Medium;Mobile communication;viber.com
+Medium;Media sharing;youtube.com
+Medium;Media sharing;flickr.com
+Medium;Media sharing;soundcloud.com
+Medium;Moderated forums;gamefaqs.gamespot.com
+Medium;Moderated forums;forums.digitalspy.com
+Medium;Moderated forums;digitalpoint.com
+Medium;Motor vehicles;caranddriver.com
+Medium;Motor vehicles;autotrader.com
+Medium;Motor vehicles;autobild.de
+Medium;News:;bbc.com
+Medium;News:;cnn.com
+Medium;News:;aljazeera.com
+Medium;Online storage;workupload.com
+Medium;Online storage;http://drive.google.com
+Medium;Online storage;onedrive.com
+Medium;Politics;tagesschau.de
+Medium;Politics;huffpost.com
+Medium;Politics;foxnews.com
+Medium;Professional networking;linkedin.com
+Medium;Professional networking;angellist.com
+Medium;Professional networking;xing.com
+Medium;Proxies;hidemyass.com
+Medium;Proxies;proxysite.com
+Medium;Proxies;kproxy.com
+Medium;Religion;biblegateway.com
+Medium;Religion;https://www.vatican.va/content/vatican/de.html
+Medium;Religion;beliefnet.com
+Medium;Social networks;facebook.com
+Medium;Social networks;twitter.com
+Medium;Social networks;instagram.com
+Medium;Stock trading;traderepublic.com
+Medium;Stock trading;tdameritrade.com
+Medium;Stock trading;robinhood.com
+Low;Business;forbes.com
+Low;Business;hbr.org
+Low;Business;entrepreneur.com
+Low;Computing & Technologie:;wired.com
+Low;Computing & Technologie:;techcrunch.com
+Low;Computing & Technologie:;http://computerbild.de
+Low;Education & reference:;https://www.khanacademy.org
+Low;Education & reference:;wikipedia.org
+Low;Education & reference:;coursera.org
+Low;Finance & Investment;bloomberg.com
+Low;Finance & Investment;investopedia.com
+Low;Finance & Investment;morningstar.com
+Low;Information security;krebsonsecurity.com
+Low;Information security;https://www.bleepingcomputer.com
+Low;Information security;sans.org
+Low;Job search;stepstone.de
+Low;Job search;linkedin.com/jobs
+Low;Job search;stellenanzeigen.de
