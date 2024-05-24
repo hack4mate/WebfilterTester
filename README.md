@@ -16,7 +16,7 @@ Thank you and have fun :)
 ## Usage:
 
 ```PowerShell
-./WebFilterTester.ps1 /Input/Path/With/Domains.csv /Output/File.csv
+./WebFilterTester.ps1 ./Domains.csv ./Outfile.csv
 
 ```
 
