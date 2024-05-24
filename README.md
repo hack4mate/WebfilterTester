@@ -1,6 +1,8 @@
 # WebfilterTester
 For IT personnel who want to verify if their web filter settings actually work :)
 
+[<img align="center" alt="WebFilter xD" width="300px" src="./_img/WebFilterTester.png" style="padding-right:10px;" />]
+
 ## Functionality
 
 To check your web filter, I've curated a file [Domains.csv](./Domains.csv) containing the most important website categories and domains.
