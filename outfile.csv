@@ -1,0 +1,15 @@
+Criticality;Category;Domain;Reachable
+Critical;Downloads;mega.io;Not Blocked
+Critical;Downloads;https://de.softonic.com;Not Blocked
+Critical;Downloads;sourceforge.net;Not Blocked
+Critical;Uncategorized;jonaskulzer.de;Blocked
+Critical;Uncategorized;doktorduckk.de;Not Blocked
+Critical;Content Server;github.com;Not Blocked
+Critical;Content Server;https://raw.githubusercontent.com/hack4mate/hack4mate/main/README.md;Not Blocked
+Critical;Content Server;bitbucket.org;Not Blocked
+Critical;Alcohol & tobacco;budweiser.com;Not Blocked
+Critical;Alcohol & tobacco;bat.de;Not Blocked
+Critical;Alcohol & tobacco;st-group.com;Not Blocked
+Critical;Adult content;brazzers.com;Not Blocked
+Critical;Adult content;youporn.com;Not Blocked
+Critical;Adult content;pornhub.com;Not Blocked

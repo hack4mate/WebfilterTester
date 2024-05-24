@@ -49,18 +49,23 @@ function WebFilterTest {
     # Open output file to write
     $outputFile = [System.IO.StreamWriter]::new($outputFilePath)
     "Criticality;Category;Domain;Reachable" | Add-Content -Path $outputFilePath
+
+    $TotalItems=$inputList.Count
+    $CurrentItem = 0
+    $PercentComplete = 0
     
     foreach ($entry in $inputList) {
         $criticality = $entry.criticality
         $category = $entry.category
         $domain = $entry.domain
 
+        Write-Progress -Activity "Checking Websites" -Status "$PercentComplete% Complete:" -PercentComplete $PercentComplete
         # Check if site is reachable
         try {
             $HTTP_Request = Invoke-WebRequest $domain
             if ($HTTP_Request.StatusCode -eq 200) {
-                $reachable = "Not Blocked"
-                Write-Output "Can connect to site: $domain"
+                $reachable = "Open"
+                Write-Output "Site open: $domain"
 
             } 
         } catch {
@@ -69,6 +74,10 @@ function WebFilterTest {
         }
         # Write result to output file
         "$criticality;$category;$domain;$reachable" | Add-Content -Path $outputFilePath
+
+        $CurrentItem++
+        $PercentComplete = [int](($CurrentItem / $TotalItems) * 100)
+        Start-Sleep -Milliseconds 2500
     }
 
     # Closes file.

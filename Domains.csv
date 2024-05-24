@@ -76,9 +76,9 @@ Medium;Moderated forums;digitalpoint.com
 Medium;Motor vehicles;caranddriver.com
 Medium;Motor vehicles;autotrader.com
 Medium;Motor vehicles;autobild.de
-Medium;News:;bbc.com
-Medium;News:;cnn.com
-Medium;News:;aljazeera.com
+Medium;News;bbc.com
+Medium;News;cnn.com
+Medium;News;aljazeera.com
 Medium;Online storage;workupload.com
 Medium;Online storage;http://drive.google.com
 Medium;Online storage;onedrive.com
@@ -103,12 +103,12 @@ Medium;Stock trading;robinhood.com
 Low;Business;forbes.com
 Low;Business;hbr.org
 Low;Business;entrepreneur.com
-Low;Computing & Technologie:;wired.com
-Low;Computing & Technologie:;techcrunch.com
-Low;Computing & Technologie:;http://computerbild.de
-Low;Education & reference:;https://www.khanacademy.org
-Low;Education & reference:;wikipedia.org
-Low;Education & reference:;coursera.org
+Low;Computing & Technologie;wired.com
+Low;Computing & Technologie;techcrunch.com
+Low;Computing & Technologie;http://computerbild.de
+Low;Education & reference;https://www.khanacademy.org
+Low;Education & reference;wikipedia.org
+Low;Education & reference;coursera.org
 Low;Finance & Investment;bloomberg.com
 Low;Finance & Investment;investopedia.com
 Low;Finance & Investment;morningstar.com
