@@ -1,6 +1,6 @@
 Criticality;Category;Domain
 Critical;Downloads;mega.io
-Critical;Downloads;https://de.softonic.com
+Critical;Downloads;wetransfer.com
 Critical;Downloads;sourceforge.net
 Critical;Uncategorized;jonaskulzer.de
 Critical;Uncategorized;doktorduckk.de
@@ -17,10 +17,8 @@ Critical;Gambling;casino.org
 Critical;Gambling;pokerstars.com
 Critical;Gambling;williamhill.com
 Critical;Illegal drugs;bestbud.nl
-Critical;Illegal drugs;https://weedmaps.com
 Critical;Illegal software;https://thepiratebay.org/index.html
-Critical;Illegal software;keygen.com
-Critical;Dating;match.com
+Critical;Dating;https://www.parship.de/login/
 Critical;Dating;tinder.com
 Critical;Dating;okcupid.com
 Critical;Weapons;glock.com
@@ -40,7 +38,7 @@ Medium;Blogs & wikis;medium.com
 Medium;Chat;discord.com
 Medium;Chat;chatroulette.com
 Medium;Chat;twitch.tv
-Medium;Entertainment;https://www.netflix.com/de/
+Medium;Entertainment;netflix.com
 Medium;Entertainment;hulu.com
 Medium;Entertainment;imdb.com
 Medium;Fashion & beauty;vogue.com
@@ -78,13 +76,13 @@ Medium;Motor vehicles;autotrader.com
 Medium;Motor vehicles;autobild.de
 Medium;News;bbc.com
 Medium;News;cnn.com
-Medium;News;aljazeera.com
+Medium;News;https://www.tagesschau.de/
 Medium;Online storage;workupload.com
 Medium;Online storage;http://drive.google.com
-Medium;Online storage;onedrive.com
-Medium;Politics;tagesschau.de
-Medium;Politics;huffpost.com
-Medium;Politics;foxnews.com
+Medium;Online storage;icloud.com
+Medium;Politics;www.csu.de
+Medium;Politics;www.fdp.de
+Medium;Politics;www.spd.de
 Medium;Professional networking;linkedin.com
 Medium;Professional networking;angellist.com
 Medium;Professional networking;xing.com
@@ -111,7 +109,7 @@ Low;Education & reference;wikipedia.org
 Low;Education & reference;coursera.org
 Low;Finance & Investment;bloomberg.com
 Low;Finance & Investment;investopedia.com
-Low;Finance & Investment;morningstar.com
+Low;Finance & Investment;boersennews.de
 Low;Information security;krebsonsecurity.com
 Low;Information security;https://www.bleepingcomputer.com
 Low;Information security;sans.org
